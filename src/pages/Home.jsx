@@ -1,8 +1,14 @@
-import React from 'react'
+
+import Carousel from '../component/Carousel'
+import Services from '../component/Services'
 
 const Home = () => {
   return (
-    <div><h1>Home</h1></div>
+    <div>
+    <h1>Home</h1>
+    <Carousel />
+    <Services />
+    </div>
   )
 }
 
