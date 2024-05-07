@@ -20,7 +20,7 @@ const Home = () => {
     <About />
     <Board title={"Board Of Directors"} header1={'Director1'} header2={'Director2'} header3={'Director3'} image1={b1} image2={b2} image3={b3}/>
     <Board header1={'Director4'} header2={'Director5'} header3={'Director6'} image1={b4} image2={b5} image3={b6}/>
-    
+    {/* <Footer /> */}
     </div>
   )
 }

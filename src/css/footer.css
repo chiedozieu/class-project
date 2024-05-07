@@ -1,0 +1,16 @@
+.footer-info ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.footer-info ul li {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+.footer-info {
+  color: white;
+  padding: 4rem;
+}
