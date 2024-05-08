@@ -1,16 +1,73 @@
 .footer-info ul li a {
   text-decoration: none;
-  list-style: none;
   color: white;
 }
 
 .footer-info ul li {
-  text-decoration: none;
   list-style: none;
-  color: white;
+}
+.footer-info h2 {
+  /* color: mistyrose; */
+  color: peachpuff;
 }
 
 .footer-info {
   color: white;
   padding: 4rem;
+}
+.footer-info a:hover {
+  color: peachpuff;
+}
+
+#footer-bottom {
+  display: flex;
+  justify-content: space-around;
+  background-color: orange;
+  padding: 1rem;
+}
+
+#footer-bottom a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-icons {
+  font-size: 1.3rem;
+  color: white;
+}
+.footer-icons:hover {
+  font-size: 1.5rem;
+}
+
+.facebook:hover {
+  color: dodgerblue;
+}
+
+.whatsapp:hover {
+  color: #25d366;
+}
+
+.instagram:hover {
+  color: Fuchsia;
+}
+
+.linkedin:hover {
+  color: dodgerblue;
+}
+.x:hover {
+  color: black;
+}
+.phone:hover {
+  color: blue;
+}
+.email:hover {
+  color: black;
+}
+#footer-bottom a:hover {
+  color: white;
+}
+
+#footer-bottom a:hover .email {
+  color: black;
+  font-size: 1.5rem;
 }
