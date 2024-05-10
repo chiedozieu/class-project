@@ -13,7 +13,7 @@ import { TfiEmail } from "react-icons/tfi";
 const Footer = () => {
   return (
     <div>
-       <div className='mt-4' style={{backgroundImage: `url(${bg})`}}>
+       <div className='mt-5' style={{backgroundImage: `url(${bg})`}}>
                 <div className='d-flex justify-content-around '>
                     <div className="footer-info">
                         <h2>KNOW US</h2>

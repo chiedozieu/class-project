@@ -1,14 +1,21 @@
 import woman from '../images/woman.jpeg'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 const About = () => {
+    useEffect(() => {
+        AOS.init()
+      })
+    
   return (
     <div className=''>
             
         <div className='bg-warning'>
                 <p className='h1 text-center p-3'>Who We Are</p>
 
-            <div className='d-flex mt-3 p-5'>
-                <div className='mx-5'>
+            <div className='d-flex mt-3 p-5' >
+                <div className='mx-5' data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
                     <img src={woman} alt="" style={{height: '70vh'}}/>
                 </div>
                 
